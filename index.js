@@ -1,17 +1,16 @@
-var x = 30;
-console.log("hello world!");
-console.log("Isi dari variabel x adalah " + x);
-console.log("Chairul");
+// alert("Welcome to my site!");
+// var again = true;
 
-// Popup box: alert;
-alert("Hello!");
+// while (again === true) {
+//   var name = prompt("Enter your name!");
+//   alert("Halo!, " + name)
 
+//   again = confirm("You want try again?");
+// }
 
-// Popup box: prompt;
-var name = prompt("Enter Your name!");
-alert(name);
-console.log(name);
+// alert("Thank You!!");
 
-// Popup box: confirm;
-var popUp = confirm('Yakin dek?');
-alert(popUp);
+let x = 30;
+let y = 20;
+let z = x + y; 
+alert(z);
