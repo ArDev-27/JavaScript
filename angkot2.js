@@ -19,17 +19,27 @@ for (noOjek = ojekOperation + 1; noOjek <= jmlOjek; noOjek++) {
   console.log("Ojek No. " + noOjek + " sedang magkal nungguin pelanggan.");
 }
 
+// error
+var jmlGrab = 10;
+var grabBeroperasi = 6;
 
-// error 
-// var jmlGrab = 10;
-// var grabBeroperasi = 6;
-// var noGrab = 1;
-// while (noGrab <= grabBeroperasi) {
-//   console.log(`Grab No. ${noGrab} sedang beroperasi.`);
-//   noGrab++;
-// }
+var noGrab = 1;
+while (noGrab <= grabBeroperasi) {
+  console.log(`Grab No. ${noGrab} sedang beroperasi.`);
+  noGrab++;
+}
 
-// while (grabBeroperasi <= jmlGrab) {
-//   console.log("Grab No. " + grabBeroperasi + " sedang tidak beroperasi.");
-//   grabBeroperasi++;
-// }
+while (grabBeroperasi <= jmlGrab) {
+  console.log("Grab No. " + grabBeroperasi + " sedang tidak beroperasi.");
+  grabBeroperasi++;
+}
+
+var aktif = 6;
+var jumlah = 10;
+for (var angkot = 1; angkot <= jumlah; angkot++) {
+  if (angkot <= aktif) {
+    console.log("Angkot No " + angkot + " beroperasi dengan baik");
+  } else {
+    console.log("Angkot No. " + angkot + " sedang tidak beroperasi.");
+  }
+}

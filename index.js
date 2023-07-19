@@ -11,8 +11,8 @@ while (motor <= 10) {
   motor++;
 }
 
-for(var human = 1; human <= 10; human++) {
-    console.log(`${human} Human`);
+for (var human = 1; human <= 10; human++) {
+  console.log(`${human} Human`);
 }
 
 alert("Welcome to my site!");
