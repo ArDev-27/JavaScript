@@ -38,8 +38,19 @@ var aktif = 6;
 var jumlah = 10;
 for (var angkot = 1; angkot <= jumlah; angkot++) {
   if (angkot <= aktif) {
-    console.log("Angkot No " + angkot + " beroperasi dengan baik");
+    console.log("Angkot No. " + angkot + " beroperasi dengan baik");
+  } else if (angkot === 8) {
+    console.log("Angkot No. " + angkot + " sedang lembur.");
   } else {
     console.log("Angkot No. " + angkot + " sedang tidak beroperasi.");
   }
+}
+
+var numeric = prompt("Enter a number: ");
+if (numeric % 2 === 0) {
+  alert(numeric + " Even");
+} else if (numeric % 2 === 1) {
+  alert(numeric + " Odd");
+} else {
+  alert(numeric + " Not a number!");
 }
