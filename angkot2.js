@@ -37,9 +37,9 @@ while (grabBeroperasi <= jmlGrab) {
 var aktif = 6;
 var jumlah = 10;
 for (var angkot = 1; angkot <= jumlah; angkot++) {
-  if (angkot <= aktif) {
+  if (angkot <= aktif && angkot !== 5) {
     console.log("Angkot No. " + angkot + " beroperasi dengan baik");
-  } else if (angkot === 8) {
+  } else if (angkot === 5||angkot === 8 || angkot === 10) {
     console.log("Angkot No. " + angkot + " sedang lembur.");
   } else {
     console.log("Angkot No. " + angkot + " sedang tidak beroperasi.");
