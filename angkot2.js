@@ -54,3 +54,14 @@ if (numeric % 2 === 0) {
 } else {
   alert(numeric + " Not a number!");
 }
+
+
+var num = parseInt(prompt("Enter a number: "));
+// if (num == 0) 
+if (num === 0) {
+  alert("Even");
+} else if (num === 1) {
+  alert(" Odd");
+} else {
+  alert("Not a number!");
+}
