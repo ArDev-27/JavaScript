@@ -1,14 +1,11 @@
 var angka = parseInt(prompt("Enter a Number: "));
 
 switch (angka) {
-  case 1:
-    console.log("One");
+  case 2, 4, 6, 8 :
+    console.log("Even");
     break;
-  case 2:
-    console.log("Two");
-    break;
-  case 3:
-    console.log("Three");
+  case 1, 3, 5, 7, 9 :
+    console.log('odd');
     break;
   default:
     console.log(NaN);
@@ -23,14 +20,23 @@ switch (food) {
   case 'nasi':
   case 'susu':
   case 'daging':
-    alert("Healty food");
+    console.log("Healty food");
     break;
   case 'burger':
   case 'sate':
   case 'coke':
-    alert("Junk Food");
+    console.log("Junk Food");
     break;
   default:
-    alert("not a list drink or food");
+    console.log("not a list drink or food");
     break;
 }
+
+var s = '';
+for (var i = 0; i < 10; i++) {
+  for (var k = 0; k <= i; k++) {
+    s += '*';
+  }
+  s += '\n';
+}
+console.log(s);
